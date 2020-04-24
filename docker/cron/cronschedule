@@ -1,0 +1,2 @@
+SHELL=/bin/bash
+* * * * * . /root/project_env.sh; /script.sh >> /tmp/cron.log 2>&1
